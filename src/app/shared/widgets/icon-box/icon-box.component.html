@@ -1,0 +1,8 @@
+<h1>{{name}}</h1>
+<p>{{age}}</p>
+<span *ngIf="isPass">Pass</span>
+<span *ngIf="!isPass">Fail</span>
+
+<h5 *ngIf="marks > 40">Marks is higher than 40</h5>
+
+<span [ngClass]="isPass ? 'green' : 'red'">Pass</span>
